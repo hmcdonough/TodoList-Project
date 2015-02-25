@@ -1,0 +1,32 @@
+#all {
+    background-image: url("triangular.png");
+}
+
+body {
+	background-image: url("diagmonds.png");
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+
+#start, #main, #all {
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: bold;
+}
+
+button.updateButton, button.completeButton, button.redoButton {
+	float: right;
+}
+
+.ui-state-default {
+	overflow: hidden;
+}
+
+.finished {
+	text-decoration: line-through;
+}
+
